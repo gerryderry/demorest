@@ -24,6 +24,7 @@ public class RestApiDemoControllerTest {
 
     private String test = "testing";
     private int ZERO = 0;
+    private boolean HAPPY = false;
 
 
     @Test
