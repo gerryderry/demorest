@@ -23,6 +23,7 @@ public class RestApiDemoControllerTest {
     MockMvc mockMvc;
 
     private String test = "testing";
+    private int ZERO = 0;
 
 
     @Test
