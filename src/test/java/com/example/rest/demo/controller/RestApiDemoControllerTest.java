@@ -22,6 +22,8 @@ public class RestApiDemoControllerTest {
     @Autowired
     MockMvc mockMvc;
 
+    private String test = "testing";
+
     @Test
     public void getCoffeesTest() throws Exception {
         mockMvc.perform(get("/coffees")
